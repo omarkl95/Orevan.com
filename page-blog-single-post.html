@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- ==============================================
+        Basic Page Needs
+        =============================================== -->
+	<meta charset="utf-8">
+	<meta content="ie=edge" http-equiv="x-ua-compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport"><!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+	<title>Orevan</title>
+	<meta content="" name="description">
+	<meta content="" name="subject">
+	<meta content="Codings" name="author"><!-- ==============================================
+        Favicons
+        =============================================== -->
+	<link href="assets/images/Orevanlogo/OrevanLogo-03.png" rel="shortcut icon">
+	<link href="assets/images/Orevanlogo/OrevanLogo-03.png" rel="apple-touch-icon">
+	<link href="assets/images/Orevanlogo/OrevanLogo-03.png" rel="apple-touch-icon" sizes="72x72">
+	<link href="assets/images/Orevanlogo/OrevanLogo-03.png" rel="apple-touch-icon" sizes="114x114"><!-- ==============================================
+        Vendor Stylesheet
+        =============================================== -->
+	<link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet"><!-- <link rel="stylesheet" href="assets/css/vendor/slider.min.css"> -->
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/animate.css" rel="stylesheet">
+	<link href="assets/css/mdb.min.css" rel="stylesheet">
+	<link href="assets/css/vendor/icons.min.css" rel="stylesheet">
+	<link href="assets/css/vendor/animation.min.css" rel="stylesheet">
+	<link href="assets/css/vendor/gallery.min.css" rel="stylesheet"><!--    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css"> -->
+	<!--    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
+	<link href="assets/css/vendor/cookie-notice.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css" rel="stylesheet"><!-- ==============================================
+        Custom Stylesheet
+        =============================================== -->
+	<link href="assets/css/default.css" rel="stylesheet"><!-- <link rel="stylesheet" href="assets/css/theme-orange.css"> -->
+	<!-- ==============================================
+        Theme Settings
+        =============================================== -->
+
+	<style>
+	       body {
+	   
+	   color: unset;
+	}
+	       #slider {
+	           background-image: url(assets/images/bg-1.jpg);
+	           background-attachment: unset;
+	       }
+	       p {
+	   margin: 1.5rem 0;
+	   font-size: var(--p-size);
+	   font-weight: var(--p-weight);
+	   line-height: 1.5;
+	}
+	       .masonry .card:not(.no-hover):hover {
+	        -webkit-transform: unset;
+	        transform: unset;
+	}
+	:root {
+	               --header-bg-color: #111111;
+	               --nav-item-color: #f5f5f5;
+	               --hero-bg-color: #111111;
+	               --section-1-bg-color: #eeeeee;
+	               --footer-bg-color: #111111;
+	               --p-font: 'Poppins', sans-serif;
+	           }
+	           .header-image{
+	               padding: 0px 0 0 !important;
+	           }
+	           .commetns-sec{
+	               padding: 0px 0 0 !important;
+	           }
+	           .card {
+	   
+	   -webkit-transition-timing-function: unset;
+	   transition-timing-function: unset;
+	   -webkit-transition-duration: unset;
+	   transition-duration: unset;
+	   -webkit-transition-property: unset;
+	   transition-property: unset;
+	   transition-property: unset;
+	   transition-property: unset;
+	}
+	.card p {
+	   white-space: unset;
+	}
+	.card:not(.no-hover):hover p {
+	   color: black;
+	}
+	.card img{
+	   width: unset;
+	}
+	p{
+	   color: black;
+	}
+	header{
+	   position: unset;
+	}
+	 .header-image{
+		background-image: url(assets/images/nature4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* position: relative; */
+    height: 90vh;
+
+
+	position: relative;
+    z-index: 999;
+	text-align: initial;
+	}
+
+	 .meta-sep:before {
+    content: "-";
+    padding: 0 3px;
+}
+.below .meta-item a , a.date-link {
+	color: #fff !important;
+}
+
+
+	.header-title{
+		vertical-align: middle;
+    width: 100%;
+    display: inline-block;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+	}
+	main {
+    /* padding: 0; */
+    margin-right: -15px;
+    margin-left: -15px;
+}
+	.btn-temp {
+	   width: unset;
+	   width: unset;
+	   width: unset;
+	   max-width: unset;
+	   /* display: -webkit-box; */
+	   display: unset;
+	   /* display: flex; */
+	   -webkit-box-align: unset;
+	   -ms-flex-align: unset;
+	   align-items: unset;
+	   -webkit-box-pack: unset;
+	   -ms-flex-pack: unset;
+	   justify-content: unset;
+	   text-align: unset;
+	   padding: unset;
+	   border-width: unset;
+	   border-radius: unset;
+	}
+	.card:not(.no-hover):hover h3, .card:not(.no-hover):hover h4, .card:not(.no-hover):hover p {
+	   color:black;
+	}
+	/* .card:not(.no-hover):hover span, .card.stycky:not(.no-hover) span {
+	   color: black;
+	   -webkit-text-fill-color: black;
+	} */
+	.card:not(.no-hover):hover a, .card.sticky:not(.no-hover) a {
+    color: #fff !important;
+    -webkit-text-fill-color:  #fff !important;
+}
+
+	.btn-footer {
+	   width: -webkit-fit-content;
+	   width: -moz-fit-content;
+	   width: fit-content;
+	   max-width: 300px;
+	   display: -webkit-box;
+	   display: -ms-flexbox;
+	   display: flex;
+	   -webkit-box-align: center;
+	   -ms-flex-align: center;
+	   align-items: center;
+	   -webkit-box-pack: center;
+	   -ms-flex-pack: center;
+	   justify-content: center;
+	   text-align: center;
+	   padding: .5rem 1.25rem;
+	   border-width: 0;
+	   border-radius: 2px;
+	}
+	.card:not(.no-hover):hover a, .card.sticky:not(.no-hover) a {
+	   color:black;
+	   -webkit-text-fill-color: black;
+	}
+	.card-data{
+		text-align: end;
+	}
+	.footer p, .copyright p{
+	   color: #fff;
+	}
+
+
+	.fixe {
+		position: fixed;
+    top: 0;
+    z-index: 9999999;
+    width: 100%;
+    background-color: #f1f1f1;
+	}
+	.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  margin-left: 15px;
+}
+
+.progress-bar {
+  height: 8px;
+  background:-webkit-linear-gradient(right, rgb(18 73 106 / 0%) -26%,rgb(22 140 194) 91%);;
+  width: 0%;
+}
+
+.content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
+	</style><!-- Global site tag (gtag.js) - Google Analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YP3WDYF10C">
+	</script>
+	<script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag(){dataLayer.push(arguments);}
+	 gtag('js', new Date());
+
+	 gtag('config', 'G-YP3WDYF10C');
+	</script>
+</head>
+<body style="overflow: hidden">
+	<div id="loader">
+		<div class="main"><img alt="" src="assets/images/orevangif.gif"></div>
+	</div><!-- Header -->
+
+	<!-- Header -->
+	<header class="odd" id="header">
+
+		
+		
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand" data-aos="zoom-out" data-aos-delay="800">
+			<div class="container header">
+				<!-- Navbar Brand-->
+				 <a class="navbar-brand" href="index.html">
+					 <img alt="" src="assets/images/Orevanlogo/Logo-02.png">
+					</a> <!-- Nav holder -->
+				<div class="ml-auto"></div><!-- Navbar Items -->
+				<ul class="navbar-nav items">
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="who-we-are.html">Who we are</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="what-we-do.html">What we do</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="how-we-do-it.html">How we do it</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="our-partners.html">Our Partners</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="our-platforms.html">Our Platforms</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active-link" href="blog.html">Blog</a>
+					</li>
+				</ul><!-- Navbar Icons -->
+				<ul class="navbar-nav icons">
+					<li class="nav-item social">
+						<a class="nav-link" href="https://www.linkedin.com/company/34737482" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					</li>
+					<li class="nav-item social">
+						<a class="nav-link" href="https://www.instagram.com/i_orevan/" target="_blank"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li class="nav-item social">
+						<a  class="nav-link" href="https://www.facebook.com/iOrevan" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</li><!-- Added Icon Blog -->
+					<!-- <li class="nav-item social">
+                        <a href="blog.html"  class="nav-link"><i class="fas fa-blog"></i></a>
+                    </li> -->
+					<!-- Added Icon Blog -->
+				</ul><!-- Navbar Toggle -->
+				<ul class="navbar-nav toggle">
+					<li class="nav-item">
+						<a class="nav-link" data-target="#menu" data-toggle="modal" href="#"><i class="fas fa-bars"></i></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<section class="header-image">
+			<div class="header-title">
+				<!-- <img src="assets/images/nature4.jpg" style="width: 100%"> -->
+				<h1 class="text-center"><mark> About Orevan</mark> </h1>
+
+				<div class="below meta-below text-center">
+					<span class="meta-item post-author">
+						<span class="by">By</span> 
+						<a href="https://cheerup.theme-sphere.com/bold/blog/author/admin/" title="Posts by Shane Doe" rel="author">Shane Doe</a>
+					</span> 
+						<span class="meta-sep"></span> <a href="https://cheerup.theme-sphere.com/bold/blog/2016/05/14/relax-by-the-lake/" class="meta-item date-link">
+					<time class="post-date" datetime="2016-05-14T19:50:28+00:00">May 14, 2016</time>
+				</a>
+			</div>
+			</div>
+
+			
+
+		</section>
+
+		
+	</header><!--Main Layout-->
+
+
+	<main>
+		<div class="fixe">
+			<div class="progress-container">
+				<div class="progress-bar" id="myBar"></div>
+			  </div>  
+		</div>
+		
+
+		<!-- mb-5 -->
+		<div class="container-fluid">
+			
+			
+			
+			<!--Grid row-->
+			<div class="row no-gutters" style="margin-top: -100px;">
+				<!--Grid column px-lg-5-->
+				<div class="col-md-12 ">
+					<!--Card  mx-md-3-->
+					<div class="card pb-5">
+						<div class="card-body">
+							<div class="container">
+								<!--Section heading-->
+								
+								<!--Grid row-->
+								<div class="row pt-lg-5 pt-3">
+									<!--Grid column-->
+									<div class="col-md-12 col-xl-12">
+										<form>
+											<!--Grid row-->
+											<div class="row mb-2 mt-4">
+												<p class="dark-grey-text article">Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla.</p>
+												<ul>
+													<li class="dark-grey-text article list-unstyled">
+														<strong>Nulla volutpat aliquam velit:</strong>
+														<ul>
+															<li>Phasellus iaculis neque</li>
+															<li>Purus sodales ultricies</li>
+															<li>Vestibulum laoreet porttitor sem</li>
+															<li>Ac tristique libero volutpat at</li>
+															<li>Vestibulum laoreet porttitor sem</li>
+														</ul>
+													</li><!--Grid column-->
+													<li style="list-style: none; display: inline">
+														<div class="col-md-12 my-4">
+															<img alt="sample image" class="img-fluid z-depth-1 rounded-0" src="assets/images/city10.jpg"></div><!--Grid column-->
+
+														<p class="dark-grey-text article">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+														<div class="row published-date">	
+														<p class="published col-md-6">Published  by
+															<a href="https://www.orevan.net/" target="_blank">Oreven</a>.</p>
+															<div class="card-data col-md-6">
+																<ul class="list-unstyled">
+																	<li class="comment-date font-small"><i class="fas fa-clock"></i> 05/10/2015</li>
+																</ul>
+															</div></div>
+													
+													</li>
+												</ul>
+											</div><!--Grid row-->
+											<!--Grid row-->
+											<div class="row my-5">
+												<!--Grid column-->
+												<div class="col-md-12 text-center">
+													<h4 class="text-center font-weight-bold dark-grey-text mt-3 mb-3"><strong>Share this post:</strong></h4>
+													<button  class="btn btn-fb btn-sm btn-temp custom-class facebook"  type="button">
+														<a href="#" class=" custom-class facebook">
+														
+															<a class="" target="_blank" 
+															href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.w3schools.com/howto/howto_js_scroll_indicator.asp"><i class="fab fa-facebook-f left"  ></i> Facebook
+	   
+														   </a>
+	   
+														   </a>
+													</button> 
+													
+													
+													<!--Twitter-->
+													 <button class="btn btn-tw btn-sm btn-temp" type="button">
+														<a href="#" class=" custom-class twitter" > 
+														
+															<a class="" target="_blank"
+															href="https://twitter.com/intent/tweet?text=jQuery%20Custom%20Social%20Share%20Plugin%20Examples&amp;url=http%3A%2F%2Fwww.jqueryscript.net&amp;via="><i class="fab fa-twitter left"  ></i> twitter
+	   
+														   </a>
+	   
+														   </a>														
+														</button>
+													
+													  <!--Google +-->
+													 <button class="btn btn-li btn-sm btn-temp" type="button">
+														<a href="#" class=" custom-class linkedin">
+														
+															<a class="" target="_blank" 
+															href="http://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;title=jQuery%20Custom%20Social%20Share%20Plugin%20Examples&amp;url=http%3A%2F%2Fwww.jqueryscript.net&amp;summary=jQuery%20Custom%20Social%20Share%20Plugin%20Examples&amp;source=jQuery%20Custom%20Social%20Share%20Plugin%20Examples&amp;armin=armin"><i class="fab fa-linkedin-in"></i> Linkedin
+	   
+														   </a>
+	   
+														   </a>														
+														</button>
+
+													
+												</div><!--Grid column-->
+											</div><!--Grid row-->
+
+											<!-- <hr class="mt-5"> -->
+							<hr>
+											<!--Section: Leave a reply (Not Logged In User)-->
+
+											<section class="mb-4 wow fadeIn commetns-sec" data-wow-delay="0.2s">
+												<h3 class="font-weight-bold text-center my-5">Leave a reply</h3><!--Grid row-->
+												<div class="row">
+													<!--Grid column-->
+													<div class="col-lg-4 col-md-12 mb-4">
+														<div class="input-group md-form form-sm form-3 pl-0">
+															<div class="input-group-prepend">
+																<span class="input-group-text white black-text" id="basic-addon8">1</span>
+															</div><input aria-describedby="basic-addon9" class="form-control mt-0 black-border rgba-white-strong" placeholder="Name" type="text">
+														</div>
+													</div>
+													<!--Grid column-->
+													<!--Grid column-->
+													<div class="col-lg-4 col-md-6 mb-4">
+														<div class="input-group md-form form-sm form-3 pl-0">
+															<div class="input-group-prepend">
+																<span class="input-group-text white black-text" id="basic-addon9">2</span>
+															</div><input aria-describedby="basic-addon9" class="form-control mt-0 black-border rgba-white-strong" placeholder="Email" type="text">
+														</div>
+													</div><!--Grid column-->
+													<!--Grid column-->
+													<div class="col-lg-4 col-md-6 mb-4">
+														<div class="input-group md-form form-sm form-3 pl-0">
+															<div class="input-group-prepend">
+																<span class="input-group-text white black-text" id="basic-addon10">3</span>
+															</div><input aria-describedby="basic-addon9" class="form-control mt-0 black-border rgba-white-strong" placeholder="Website" type="text">
+														</div>
+													</div><!--Grid column-->
+												</div><!--Grid row-->
+												<!--Grid row-->
+												<div class="row">
+													<div class="col-12 mt-1">
+														<div class="form-group basic-textarea rounded-corners shadow-textarea">
+															<textarea class="form-control" id="exampleFormControlTextarea6" placeholder="Write something here..." rows="5"></textarea>
+														</div>
+														<div class="text-right">
+															<button class="btn btn-grey btn-sm">Submit</button>
+														</div>
+													</div>
+												</div><!--Grid row-->
+											</section>
+											
+											<!--/Section: Leave a reply (Not Logged In User)-->
+											<!--Posts-->
+											<!--/.Posts-->
+										</form>
+									</div><!--/Grid column-->
+								</div><!--/Grid row-->
+							</div><!--Grid column-->
+						</div><!--Grid row-->
+					</div><!--/Card-->
+				</div><!--/Grid column-->
+			</div><!--/Grid row-->
+		</div>
+	</main><!--Main Layout-->
+	<!-- Footer -->
+	<footer>
+		<!-- Footer [links] -->
+		<section class="odd footer" id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-3 p-3 text-center text-lg-left">
+						<div class="brand">
+							<a class="logo" href="/">Orevan. <!-- 
+                                        Custom Logo
+                                        <img src="assets/images/logo.svg" alt="Leverage">
+                                    --></a>
+						</div>
+						<p>Creative Agency, Portfolio, Corporate, Startup & Technology</p>
+						<ul class="navbar-nav social share-list mt-0 ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="icon-social-instagram ml-0"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="icon-social-facebook"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="icon-social-linkedin"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="icon-social-twitter"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3 p-3 text-center">
+						<ul class="navbar-nav">
+							<!-- <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">All Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Single Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Our Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Plans & Pricing</a>
+                                </li> -->
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="who-we-are.html">Who we are</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="what-we-do.html">What we do</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="how-we-do-it.html">How we do it</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="our-partners.html">Our Partners</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3 p-3 text-center">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="our-platforms.html">Our Platforms</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">Blog</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3 p-3 text-center">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="icon-phone mr-2"></i> +1 123 98765 4321</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="icon-envelope mr-2"></i> hello@business.com</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="icon-location-pin mr-2"></i> Office Street, 123,12</a>
+							</li><!-- <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="icon-envelope mr-2"></i>
+                                        hello@business
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="icon-location-pin mr-2"></i>
+                                        Office Street, 123
+                                    </a>
+                                </li> -->
+							<li class="nav-item">
+								<a class="mt-4 ml-auto mr-auto btn primary-button" href="#"><i class="icon-speech"></i>SEND A MESSAGE</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section><!-- Copyright -->
+		<section class="p-3 odd copyright" id="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6 p-3 text-center text-lg-left">
+						<p>.</p><!--
+                                Suggestion: Replace the text above with a description of your website.
+                             -->
+					</div>
+					<div class="col-12 col-md-6 p-3 text-center text-lg-right">
+						<p class="">Powered by <a href="https://www.orevan.net/" target="_blank">Oreven</a>.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer><!-- Modal [responsive menu] -->
+	<div aria-hidden="true" aria-labelledby="menu" class="p-0 odd modal fade" id="menu" role="dialog">
+		<div class="modal-dialog modal-dialog-slideout" role="document">
+			<div class="modal-content full">
+				<div class="modal-header" data-dismiss="modal">
+					Menu <i class="far fa-times-circle"></i>
+				</div>
+				<div class="menu modal-body">
+					<div class="row w-100">
+						<div class="items p-0 col-12 text-center">
+							<!-- Append [navbar] -->
+						</div>
+						<div class="contacts p-0 col-12 text-center">
+							<!-- Append [navbar] -->
+						</div>
+					</div>
+				</div><!--<p style="margin-left: 40px">visite us :</p>-->
+				<ul class="navbar-nav icons menu-btn">
+					<li class="nav-item social">
+						<a class="nav-link" href="https://www.linkedin.com/company/34737482" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					</li>
+					<li class="nav-item social">
+						<a class="nav-link" href="https://www.instagram.com/i_orevan/" target="_blank"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li class="nav-item social">
+						<a class="nav-link" href="https://www.facebook.com/iOrevan" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</li><!-- Added Icon Blog -->
+					<!-- <li class="nav-item social">
+                        <a href="blog.html"  class="nav-link"><i class="fas fa-blog"></i></a>
+                    </li> -->
+					<!-- Added Icon Blog -->
+				</ul>
+			</div>
+		</div>
+	</div><!-- ==============================================
+        Google reCAPTCHA // Put your site key here
+        =============================================== -->
+	<script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7">
+	</script> <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+	 
+	<script src="assets/js/vendor/jquery.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js">
+	</script> 
+	<script src="assets/js/vendor/parallax.js">
+	</script> 
+	<script src="assets/js/vendor/rellax.min.js">
+	</script> 
+	<script src="assets/js/vendor/jquery.easing.min.js">
+	</script> 
+	<script src="assets/js/vendor/jquery.inview.min.js">
+	</script> 
+	<script src="assets/js/vendor/popper.min.js">
+	</script> 
+	<script src="assets/js/vendor/bootstrap.min.js">
+	</script> 
+	<script src="assets/js/vendor/ponyfill.min.js">
+	</script> <!--    <script src="assets/js/vendor/slider.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js">
+	</script> 
+	<script src="assets/js/vendor/animation.min.js">
+	</script> 
+	<script src="assets/js/vendor/progress-radial.min.js">
+	</script> 
+	<script src="assets/js/vendor/bricklayer.min.js">
+	</script> 
+	<script src="assets/js/vendor/gallery.min.js">
+	</script> 
+	<script src="assets/js/vendor/shuffle.min.js">
+	</script> 
+	<script src="assets/js/vendor/jquery.vide.js">
+	</script> 
+	<script src="assets/js/wow.min.js">
+	</script> 
+	<script src="assets/js/jquery-socialshare.js"></script>
+	<script src="assets/js/main.js">
+	</script> 
+	<script>
+	       new WOW().init();
+	</script> 
+	<script>
+	       var swiper = new Swiper('.swiper-container', {
+	           speed: 800,
+	           slidesPerView: 1,
+	           loop: true,
+	           pagination: {
+	               el: '.swiper-pagination',
+	               clickable: true,
+	           },
+	           navigation: {
+	               nextEl: '.swiper-button-next',
+	               prevEl: '.swiper-button-prev',
+	           },
+	           autoplay: {
+	               delay: 5000,
+	           },
+	       });
+
+	</script>
+
+
+<script>
+	// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+
+</script>
+
+<script>
+
+// <a href="#" class="custom">Share with a custom template</a>
+
+$("a.custom-class ").jqss({
+  usePopup: false,
+  popupHeight: 450,
+  ariaLabelPrefix: "Share with",
+
+  url: window.location.href,
+  siteUrl: window.location.origin || window.location.protocol + "//" + window.location.hostname + ( window.location.port ? ":" + window.location.port : "" ),
+//   source: $head.find( "[name=site], [name=Site]" ).prop( "content" ) || window.document.title,
+//   title: $head.find( "[name=title], [name=Title]" ).prop( "content" ) || window.document.title,
+//   description: $head.find( "[name=description], [name=Description], [property='og:description'], [property='og:Description']" ).attr( "content" ) || window.document.title,
+//   image: $head.find( "[name=image], [name=Image], [property='og:image'], [property='og:Image']" ).prop( "content" ) || $( "img:first" ).prop( "src" ) || "",
+//   price: $head.find( "[property='og:product:price:amount']" ).prop( "content" ) || "",
+  template: null,
+
+  imageSelector: null,
+  priceSelector: null,
+
+  emailSubject: "I'm sharing \"{{TITLE}}\" with you",
+  emailBody: "Because I think you'll find it very interesting.%0A%0A\"{{DESCRIPTION}}\"%0A%0AClick this link {{URL}} for more info.",
+
+//   twitterSource: ( $head.find( "[name='twitter:creator'], [name='twitter:site']" ).prop( "content" ) || "" ).replace( "@", "" ),
+
+  onOpen: function() { },
+  onClose: function() { }
+});
+
+	</script>
+
+
+</body>
+</html>
